@@ -1,0 +1,82 @@
+body {
+    background-image: url(../images/Star-Wars-Wallpaper-Hd-001.jpg)
+}
+#container {
+margin-top: 100px;
+}
+button {
+
+    width: 200px;
+    height: 150px;
+}
+ #Obi-wan_Kenobi {
+    background-image: url(../images/cover256x256-a204f2985eab42ce8cb40d9ec395fa63.jpg);
+
+}
+#Luke_Skywalker {
+    background-image: url(../images/9173d6_b6e7d7a2d6e92e1a1da9aefda77fa7d7.jpg_256);
+}
+#Darth_Maul {
+    background-image: url(../images/91480d6400a6826520b59d676c87fe81.png);
+}
+#Darth_Sidious {
+    background-image: url(../images/efe4399f058dd75a56ed1c074aa6c428.jpeg);
+}
+#Obi-wan_KenobiDef {
+    background-image: url(../images/cover256x256-a204f2985eab42ce8cb40d9ec395fa63.jpg);
+}
+#Luke_SkywalkerDef {
+    background-image: url(../images/9173d6_b6e7d7a2d6e92e1a1da9aefda77fa7d7.jpg_256);
+}
+#Darth_MaulDef {
+    background-image: url(../images/91480d6400a6826520b59d676c87fe81.png);
+}
+#Darth_SidiousDef {
+    background-image: url(../images/efe4399f058dd75a56ed1c074aa6c428.jpeg);
+}
+.enemies {
+    width: 200px;
+    height: 150px;
+}
+.selected-player {
+    width: 200px;
+    height: 150px;
+}
+.selected-defender {
+    width: 200px;
+    height: 150px;
+}
+button.characters{
+    display: inline-block;
+    border: 5px solid green;
+}   
+
+button.selected-player{
+    display: inline-block;
+    border: 5px solid green;
+
+}   
+button.enemies{
+    display: inline-block;
+    border: 5px solid red;
+}
+button.selected-defender {
+    display: inline-block;
+    border: 5px solid black;
+}
+div {
+ display: inline;
+
+}
+#Obi-wan_Kenobispan, #Luke_Skywalkerspan, #Darth_Maulspan, #Darth_Sidiousspan {
+    color: white;
+    display: block;
+}
+#Obi-wan_Kenobidiv, #Luke_Skywalkerdiv, #Darth_Mauldiv, #Darth_Sidiousdiv {
+    color: white;
+    display: block;
+}
+#attack {
+    height: 35px;
+    width: 100px;
+}
