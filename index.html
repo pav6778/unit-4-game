@@ -13,13 +13,46 @@
       <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-      <div id="container">
-      <div id="player"></div>
-        <table class="container row" id="char"></table>
+      <div class="container-fluid my-2">
+        <div class="row">
 
-        <div id="enemies"></div>
-        <button id="attack">Attack</button>
-        <div id="defender"></div>
+        <h2 class="col-11 text-right">Star Wars RPG!</h2>
+        
+      </div>
+      <div id="chars">
+      <div class="container row" id="charnames"></div>
+      <div class="container row" id="charbtn"></div>
+      <div class="container row" id="charhp"></div>
+    </div>
+      <h5 class="text-warning">Your Character</h5>
+      <div id="player">
+        <div class="container row" id="playername"></div>
+        <div class="container row" id="playerbtn"></div>
+        <div class="container row" id="playerhp"></div>
+        
+      </div>
+      <div id="enemies">
+        <h6 class="text-warning">Enemies Available To Attack</h6>
+            <div class="container row" id="enemynames"></div>
+            <div class="container row" id="enemybtn"></div>
+            <div class="container row" id="enemyhp"></div>
+        </div>
+        <h6 class="text-warning">Fight Section</h6>
+        <button id="attack" class="btn btn-danger py-0 px-2">Attack</button>
+        <div id="defender">
+              <h5 class="text-warning">Defender</h5>
+            <div class="container row" id="defendername"></div>
+            <div class="container row" id="defenderbtn"></div>
+            <div class="container row" id="defenderhp"></div>
+        </div>
+        <div id="wrap" class="text-warning">
+          <div id="wrap2">
+        <p id="yourattack" class="text-warning"></p>
+        <p id="enemyattack" class="text-warning"></p>
+      </div>
+         </div>
+      </div>
+    </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="assets/javascript/game.js"></script>
       </div>

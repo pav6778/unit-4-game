@@ -1,82 +1,81 @@
 body {
-    background-image: url(../images/Star-Wars-Wallpaper-Hd-001.jpg)
+    background-image: url(../images/star-wars-wallpaper-hd-1920x1080.jpg);
+    font-size: .9em;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 5px 0px 14px rgba(255,224,100,0.68);
 }
-#container {
-margin-top: 100px;
-}
-button {
 
+
+ #Obi-wan_Kenobi, #Obi-wan_Kenobienemy, #Obi-wan_Kenobibtn {
+    background-image: url(../images/kenobi.png);
     width: 200px;
-    height: 150px;
+    height: 100px;
+    background-size: 200px;
+    background-repeat: no-repeat;
 }
- #Obi-wan_Kenobi {
-    background-image: url(../images/cover256x256-a204f2985eab42ce8cb40d9ec395fa63.jpg);
-
-}
-#Luke_Skywalker {
-    background-image: url(../images/9173d6_b6e7d7a2d6e92e1a1da9aefda77fa7d7.jpg_256);
-}
-#Darth_Maul {
-    background-image: url(../images/91480d6400a6826520b59d676c87fe81.png);
-}
-#Darth_Sidious {
-    background-image: url(../images/efe4399f058dd75a56ed1c074aa6c428.jpeg);
-}
-#Obi-wan_KenobiDef {
-    background-image: url(../images/cover256x256-a204f2985eab42ce8cb40d9ec395fa63.jpg);
-}
-#Luke_SkywalkerDef {
-    background-image: url(../images/9173d6_b6e7d7a2d6e92e1a1da9aefda77fa7d7.jpg_256);
-}
-#Darth_MaulDef {
-    background-image: url(../images/91480d6400a6826520b59d676c87fe81.png);
-}
-#Darth_SidiousDef {
-    background-image: url(../images/efe4399f058dd75a56ed1c074aa6c428.jpeg);
-}
-.enemies {
+#Luke_Skywalker, #Luke_Skywalkerenemy, #Luke_Skywalkerbtn  {
+    background-image: url(../images/lukeskywalker.png);
     width: 200px;
-    height: 150px;
+    height: 100px;
+    background-size: 250px;
+    background-repeat: no-repeat;
 }
-.selected-player {
+#Darth_Maul, #Darth_Maulenemy, #Darth_Maulbtn {
+    background-image: url(../images/darthmaul.png);
     width: 200px;
-    height: 150px;
+    height: 100px;
+    background-size: 250px;
+    background-repeat: no-repeat;
 }
-.selected-defender {
+#Darth_Sidious, #Darth_Sidiousenemy, #Darth_Sidiousbtn {
+    background-image: url(../images/darthsidious.jpg);
     width: 200px;
-    height: 150px;
+    height: 100px;
+    background-size: 250px;
+    background-repeat: no-repeat;
 }
-button.characters{
-    display: inline-block;
-    border: 5px solid green;
-}   
 
-button.selected-player{
-    display: inline-block;
-    border: 5px solid green;
+@media (max-width: 1200px){
+    body {
+        font-size: 16px;
+    }
+}
 
-}   
-button.enemies{
-    display: inline-block;
-    border: 5px solid red;
-}
-button.selected-defender {
-    display: inline-block;
-    border: 5px solid black;
-}
-div {
- display: inline;
-
-}
-#Obi-wan_Kenobispan, #Luke_Skywalkerspan, #Darth_Maulspan, #Darth_Sidiousspan {
+.topdiv, .characters, .bottomdiv{
+    background-color: green;
     color: white;
-    display: block;
+    margin: 0 2px 0 2px;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
-#Obi-wan_Kenobidiv, #Luke_Skywalkerdiv, #Darth_Mauldiv, #Darth_Sidiousdiv {
+
+.playertopdiv, .playerbottomdiv, .selected-player{
+    background-color: green;
     color: white;
-    display: block;
+    margin: 0 2px 0 2px;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    
 }
-#attack {
-    height: 35px;
-    width: 100px;
+.enemytopdiv, .enemybottomdiv, .enemybtn{
+    background-color: red;
+    color: white;
+    margin: 0 2px 0 2px;
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.playerbottomdiv, .enemybottomdiv {
+    margin-bottom: 20px;
+}
+.defendertopdiv, .defenderbottomdiv, .defenderbtn {
+    background-color: black;
+    color: white;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+#attwrap {
+    line-height: .1em;
+    margin-top: 10px;
 }
