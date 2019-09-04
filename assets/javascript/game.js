@@ -19,7 +19,7 @@ class character {
 let attvalue,
   kenobi = new character("Obi-wan_Kenobi", 120, 15, 8),
   lukeSkywalker = new character("Luke_Skywalker", 100, 5, 15),
-  darthMaul = new character("Darth_Maul", 180, 25, 5),
+  darthMaul = new character("Darth_Maul", 180, 25, 3),
   darthSidious = new character("Darth_Sidious", 150, 20, 8),
   enemyList = [],
   defender,
@@ -46,7 +46,7 @@ let reset = function() {
   enemyList = [];
   kenobi = new character("Obi-wan_Kenobi", 120, 15, 8);
   lukeSkywalker = new character("Luke_Skywalker", 100, 5, 15);
-  darthMaul = new character("Darth_Maul", 180, 25, 5);
+  darthMaul = new character("Darth_Maul", 180, 25, 3);
   darthSidious = new character("Darth_Sidious", 150, 20, 8);
   $(".playertopdiv").remove();
   $(".selected-player").remove();
@@ -192,7 +192,7 @@ var setPlayer = function() {
     }
     if ($(this).val() === "Darth_Maul" && playerChosen === false) {
       player = darthMaul;
-      attvalue = 5;
+      attvalue = 3;
       // Display name
       var playertopdiv = $("<div>");
       playertopdiv.addClass("playertopdiv col-2");
