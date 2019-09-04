@@ -4,7 +4,8 @@
    ## Star Wars RPG game. 
     
     The focus of this game is to strategically defeat all enemies. 
-    Each character is equipped with various numbers of attack, counter-attack and hit points. 
+    Each character is equipped with various values of attack, counter-attack and hit points. 
+    Everytime attack button is clicked, player's attack power increases.
 
     1) Click on any of the green characters to assign it as human player. When the player is chosen, the rest of characters are assigned as enemies, moved down and are given red appearance. 
     2) Click on any of enemies to assign it as a computer player/defender to perform attack action. 
